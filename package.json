@@ -1,0 +1,20 @@
+{
+  "name": "bsdd-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for the buildingSMART Data Dictionary (bSDD) API",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "@types/node": "^22.15.2"
+  }
+}
